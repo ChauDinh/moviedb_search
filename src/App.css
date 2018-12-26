@@ -1,0 +1,28 @@
+.navbar {
+  background: #212121;
+  display: block;
+  color: #fff;
+  padding-left: 32px;
+}
+
+.wrapper {
+  /* background: #fff; */
+  color: #212121;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  padding: 2em;
+}
+
+.search-term {
+  font-size: 24px;
+  display: 'block';
+  background: #212121;
+  border: green;
+  border-radius: 3%;
+  color: #fff;
+}
+
+.poster {
+  border-radius: 6%;
+}
